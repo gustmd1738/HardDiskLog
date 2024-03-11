@@ -1,0 +1,291 @@
+---------------------------------------------------
+"03/11/2024 15:16:19.063"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "0.815413"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.203851"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.222648"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.407556"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "28950.938720"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "78.000487"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "6013.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.030861"
+"\\DESKTOP-6M20Q9F\System\Processes" : "260.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4121.000000"
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:21:38.476"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "5.311716"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "1.327594"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "276.160605"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "78.003162"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "5994.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "1.824922"
+"\\DESKTOP-6M20Q9F\System\Processes" : "257.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "3773.000000"
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 4
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 1
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 1
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 1
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 11
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 0
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:47:38.669"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "1.961687"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.490429"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.192970"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.397657"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "27679.364578"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "86.871900"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "4681.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.833429"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\System\Processes" : "271.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\System\Threads" : "4435.000000"
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:48:04.267"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "0.604851"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.151218"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.046732"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.348911"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "86.410204"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "4915.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.626041"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\System\Processes" : "270.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\System\Threads" : "4367.000000"
+---------------------------------------------------
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits : 9
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:48:29.865"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "2.193454"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.548361"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "0.558484"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.186158"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "86.535471"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "4964.000000"
+---------------------------------------------------
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "1.329409"
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:50:07.576"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "0.522643"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.130661"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.232852"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.410944"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "30397.761929"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "85.299391"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "5106.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.615290"
+"\\DESKTOP-6M20Q9F\System\Processes" : "268.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4206.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:50:33.072"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "0.600849"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.150210"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "0.947268"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.315753"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "199237.377872"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "84.718216"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "5193.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.842530"
+"\\DESKTOP-6M20Q9F\System\Processes" : "268.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4100.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:50:58.671"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "2.281610"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.570536"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "3.232040"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "1.077343"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "548516.409705"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "87.834916"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "4727.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.920242"
+"\\DESKTOP-6M20Q9F\System\Processes" : "271.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4154.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 1
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:51:24.233"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "1.495280"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.373823"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.673538"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.557849"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "215.881969"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "87.290544"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "4800.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "1.123012"
+"\\DESKTOP-6M20Q9F\System\Processes" : "271.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4206.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 36
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:51:49.886"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "2.523100"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.630782"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.755165"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.585055"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "30640.050202"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "87.500828"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "4803.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "1.934127"
+"\\DESKTOP-6M20Q9F\System\Processes" : "271.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4152.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:52:15.548"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "0.778217"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.194562"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "0.582730"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.194237"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "433.599796"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "85.837974"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "5029.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.419349"
+"\\DESKTOP-6M20Q9F\System\Processes" : "269.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4084.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:54:37.958"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "11.695409"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "2.923845"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.263711"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.421234"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "28908.173897"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "83.881512"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "5474.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "1.272503"
+"\\DESKTOP-6M20Q9F\System\Processes" : "261.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4096.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:59:24.616"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "2.100419"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.525097"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(0 D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(1 C:)\% Disk Time" : "1.751569"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(2 E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\PhysicalDisk(_Total)\% Disk Time" : "0.583668"
+"\\DESKTOP-6M20Q9F\Network Interface(Realtek PCIe GbE Family Controller)\Bytes Total/sec" : "27979.512511"
+"\\DESKTOP-6M20Q9F\Network Interface(Intel[R] Wi-Fi 6E AX211 160MHz)\Bytes Total/sec" : "0.000000"
+"\\DESKTOP-6M20Q9F\Memory\% Committed Bytes In Use" : "84.382812"
+"\\DESKTOP-6M20Q9F\Memory\Available MBytes" : "5375.000000"
+"\\DESKTOP-6M20Q9F\Processor(_Total)\% Processor Time" : "0.865617"
+"\\DESKTOP-6M20Q9F\System\Processes" : "262.000000"
+"\\DESKTOP-6M20Q9F\System\Threads" : "4076.000000"
+nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : 0
+---------------------------------------------------
+---------------------------------------------------
+"03/11/2024 15:59:50.107"
+"\\DESKTOP-6M20Q9F\LogicalDisk(D:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(C:)\% Disk Time" : "0.628685"
+"\\DESKTOP-6M20Q9F\LogicalDisk(HarddiskVolume6)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(E:)\% Disk Time" : "0.000000"
+"\\DESKTOP-6M20Q9F\LogicalDisk(_Total)\% Disk Time" : "0.157176"

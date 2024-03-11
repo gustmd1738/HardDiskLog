@@ -17,7 +17,8 @@ enum checkMode
     Memory,
     CPU,
     Processes,
-    Threads
+    Threads,
+    GPU
 };
 
 vector<string> split(const string& s, const vector<string>& delims) {
@@ -66,9 +67,17 @@ void consoleOutput(const vector<string>& result, checkMode mode) {
         for (int i = 2; i + hardNum + 1 < result.size() - 3; i++) {
             cout << result[i] << " : " << result[i + hardNum + 1] << endl;
         }
-        if (mode == Threads) {
-            cout << "---------------------------------------------------" << endl;
+        break;
+    case GPU:
+        if (result.size() > 1)
+        {
+            // GPU없거나 NVIDIA가 아님, 혹은 개발환경과 다름
         }
+        else
+        {
+            cout << "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : " << result[0] << endl;
+        }
+        cout << "---------------------------------------------------" << endl;
         break;
     }
 }
@@ -81,7 +90,7 @@ void writeResults(const string& result, checkMode mode) {
     localtime_s(&localTime, &now);
     char dateBuffer[80];
     strftime(dateBuffer, 80, "%Y-%m-%d", &localTime);
-    string fileName = "Disk Time_" + string(dateBuffer) + ".txt";
+    string fileName = "Disk Log_" + string(dateBuffer) + ".txt";
 
     ofstream outputFile(fileName, ios::app);
 
@@ -111,10 +120,18 @@ void writeResults(const string& result, checkMode mode) {
             for (int i = 2; i + hardNum + 1 < lines.size() - 3; i++) {
                 outputFile << lines[i] << " : " << lines[i + hardNum + 1] << endl;
             }
+            break;
 
-            if (mode == Threads) {
-                outputFile << "---------------------------------------------------" << endl;
+        case GPU:
+            if (lines.size() > 1)
+            {
+                // GPU없거나 NVIDIA가 아님, 혹은 개발환경과 다름
             }
+            else
+            {
+                outputFile << "nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits(%) : " << lines[0] << endl;
+            }
+            outputFile << "---------------------------------------------------" << endl;
             break;
         }
 
@@ -151,12 +168,14 @@ int main() {
     while (true) {
 #ifdef _DEBUG
         cout << "Debug 모드에서 실행 중입니다." << endl;
+#else
+        cout << "Processes Status" << endl;
 #endif
         string result;
 
         int sequence = 0;
 
-        while (sequence < 8)
+        while (sequence < 9)
         {
             switch (sequence)
             {
@@ -200,6 +219,11 @@ int main() {
                 result = checkPerformance("typeperf \"\\System\\Threads\" -sc 1");
                 writeResults(result, Threads);
                 break;
+            case 8:
+                // GPU 확인
+                result = checkPerformance("nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits");
+                writeResults(result, GPU);
+                break;
             }
 
             sequence++;
@@ -210,9 +234,9 @@ int main() {
         
         // 다음 사이클 대기 시간
 #ifdef _DEBUG
-        this_thread::sleep_for(chrono::seconds(10));
+        this_thread::sleep_for(chrono::seconds(5));
 #else
-        this_thread::sleep_for(chrono::minutes(10));
+        this_thread::sleep_for(chrono::minutes(5));
 #endif
     }
 
