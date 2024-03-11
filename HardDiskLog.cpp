@@ -156,7 +156,7 @@ int main() {
 
         int sequence = 0;
 
-        while (sequence < 7)
+        while (sequence < 8)
         {
             switch (sequence)
             {
@@ -176,21 +176,26 @@ int main() {
                 writeResults(result, Network);
                 break;
             case 3:
-                // 메모리 확인
+                // 메모리 확인1
                 result = checkPerformance("typeperf \"\\Memory\\% Committed Bytes In Use\" -sc 1");
                 writeResults(result, Memory);
                 break;
             case 4:
+                // 메모리 확인2
+                result = checkPerformance("typeperf \"\\Memory\\Available MBytes\" -sc 1");
+                writeResults(result, Memory);
+                break;
+            case 5:
                 // CPU 확인
                 result = checkPerformance("typeperf \"\\Processor(_Total)\\% Processor Time\" -sc 1");
                 writeResults(result, CPU);
                 break;
-            case 5:
+            case 6:
                 // Processes 확인
                 result = checkPerformance("typeperf \"\\System\\Processes\" -sc 1");
                 writeResults(result, Processes);
                 break;
-            case 6:
+            case 7:
                 // Threads 확인
                 result = checkPerformance("typeperf \"\\System\\Threads\" -sc 1");
                 writeResults(result, Threads);
