@@ -9,6 +9,9 @@
 
 using namespace std;
 
+int cycleTime_Debug = 5;
+int cycleTime_Release = 60;
+
 enum checkMode
 {
     LogicalDisk = 0,
@@ -167,9 +170,9 @@ int main() {
 
     while (true) {
 #ifdef _DEBUG
-        cout << "Debug 모드에서 실행 중입니다." << endl;
+        cout << "Debug 모드에서 실행 중입니다. \t" << cycleTime_Debug << "초 간격 확인" << endl;
 #else
-        cout << "Processes Status" << endl;
+        cout << "Processes Status \t" << cycleTime_Release << "초 간격 확인" << endl;
 #endif
         string result;
 
@@ -234,9 +237,9 @@ int main() {
         
         // 다음 사이클 대기 시간
 #ifdef _DEBUG
-        this_thread::sleep_for(chrono::seconds(5));
+        this_thread::sleep_for(chrono::seconds(cycleTime_Debug));
 #else
-        this_thread::sleep_for(chrono::minutes(5));
+        this_thread::sleep_for(chrono::seconds(cycleTime_Release));
 #endif
     }
 
