@@ -1,2 +1,5 @@
 Disk Log_*
 .vs/
+x64/
+DiskLog_makeGraph/x64/
+DiskLog_makeGraph/.vs/

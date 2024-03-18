@@ -9,6 +9,7 @@
 
 using namespace std;
 
+// 싸이클타임 단위 : 초
 int cycleTime_Debug = 5;
 int cycleTime_Release = 60;
 
