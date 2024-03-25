@@ -173,13 +173,13 @@ int main() {
 #ifdef _DEBUG
         cout << "Debug 모드에서 실행 중입니다. \t" << cycleTime_Debug << "초 간격 확인" << endl;
 #else
-        cout << "Processes Status \t" << cycleTime_Release << "초 간격 확인" << endl;
+        cout << "Process Status \t" << cycleTime_Release << "초 간격 확인" << endl;
 #endif
         string result;
 
         int sequence = 0;
 
-        while (sequence < 9)
+        while (sequence < 8)
         {
             switch (sequence)
             {
@@ -199,31 +199,26 @@ int main() {
                 writeResults(result, Network);
                 break;
             case 3:
-                // 메모리 확인1
+                // 메모리 확인
                 result = checkPerformance("typeperf \"\\Memory\\% Committed Bytes In Use\" -sc 1");
                 writeResults(result, Memory);
                 break;
             case 4:
-                // 메모리 확인2
-                result = checkPerformance("typeperf \"\\Memory\\Available MBytes\" -sc 1");
-                writeResults(result, Memory);
-                break;
-            case 5:
                 // CPU 확인
                 result = checkPerformance("typeperf \"\\Processor(_Total)\\% Processor Time\" -sc 1");
                 writeResults(result, CPU);
                 break;
-            case 6:
+            case 5:
                 // Processes 확인
                 result = checkPerformance("typeperf \"\\System\\Processes\" -sc 1");
                 writeResults(result, Processes);
                 break;
-            case 7:
+            case 6:
                 // Threads 확인
                 result = checkPerformance("typeperf \"\\System\\Threads\" -sc 1");
                 writeResults(result, Threads);
                 break;
-            case 8:
+            case 7:
                 // GPU 확인
                 result = checkPerformance("nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits");
                 writeResults(result, GPU);

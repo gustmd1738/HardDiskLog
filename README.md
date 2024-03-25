@@ -14,3 +14,6 @@ typeperf로 현재의 PC성능을 체크합니다.
 
 2024.03.19
 - 로그기록을 csv파일로 정리하여 그래프를 볼수있는 프로젝트 추가(DiskLog_makeGraph)
+
+2024.03.25
+- DiskLog_makeGraph 프로젝트 부분 Log기록에 따라 짤리는 부분 수정

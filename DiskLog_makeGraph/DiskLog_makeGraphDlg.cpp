@@ -215,20 +215,46 @@ void CDiskLogmakeGraphDlg::OnBnClickedButtonConvert()
             //csv파일에 열쓰기
             bool writingColumn = false;
             bool writingFirst = true;
+            unsigned int checkLine = 0;
+            unsigned int firstStartLine = 0;
+            unsigned int firstEndLine = 0;
             while (getline(file, line))
             {
+                checkLine++;
+
                 if (line == L"---------------------------------------------------")
                 {
-                    if (!writingColumn)
+
+                    if (firstStartLine != 0)
                     {
-                        writingColumn = true;
-                        continue;
+                        firstEndLine = checkLine;
                     }
-                    else
+
+                    if (firstEndLine != checkLine)
+                    {
+                        firstStartLine = checkLine;
+                    }
+
+                    if (writingColumn)
                     {
                         writingColumn = false;
                         break;
                     }
+
+                    if (firstEndLine - firstStartLine == 1)
+                    {
+                        firstStartLine = firstEndLine;
+                        firstEndLine = 0;
+                        writingColumn = true;
+                        continue;
+                    }
+
+                    if (firstStartLine == 1)
+                    {
+                        writingColumn = true;
+                        continue;
+                    }
+
                 }
 
                 if (writingColumn && writingFirst)
@@ -266,15 +292,21 @@ void CDiskLogmakeGraphDlg::OnBnClickedButtonConvert()
 
             line.clear();
             outputFile << L"\n";
-
+            if (checkLine == firstEndLine);
             bool writingRow = false;
             int LogLine = 0;
 
             file.clear();
             file.seekg(0, std::ios::beg);
-
+            checkLine = 0;
             while (getline(file, line))
             {
+                checkLine++;
+                if (firstStartLine > checkLine)
+                {
+                    continue;
+                }
+
                 if (line == L"---------------------------------------------------")
                 {
                     if (!writingRow)
